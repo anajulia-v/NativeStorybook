@@ -2,11 +2,14 @@ import Form from './src/components/form';
 import styled from 'styled-components/native';
 import InputField from './src/components/inputField';
 
+import StorybookUIRoot from './.storybook'
+const ShowStorybook = true
+
 const AppContainer = styled.SafeAreaView`
   flex: 1;
 `
 
-export default function App() {
+function App() {
   return (
     <AppContainer>
       <Form buttonTitle="Entrar">
@@ -17,3 +20,4 @@ export default function App() {
   )
 }
 
+export default ShowStorybook ? StorybookUIRoot : App

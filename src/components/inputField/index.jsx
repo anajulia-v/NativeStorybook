@@ -7,6 +7,7 @@ export default function InputField(props) {
       <Input
         placeholder={props.placeholder}
         placeholderTextColor={props.placeholderTextColor}
+        secureTextEntry={secureTextEntry}
       />
     </Container>
   )
