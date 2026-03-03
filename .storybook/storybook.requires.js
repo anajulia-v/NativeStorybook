@@ -1,6 +1,6 @@
 import { configure } from '@storybook/react-native'
 
 configure(() => {
-  require('../components/inputField/Input.stories')
-  require('../components/form/Form.stories')
+  require('../src/components/inputField/Input.stories.js')
+  require('../src/components/form/Form.stories.js')
 }, module)

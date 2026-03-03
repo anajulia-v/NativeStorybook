@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import InputField from './src/components/inputField';
 
 import StorybookUIRoot from './.storybook'
-const ShowStorybook = true
+const ShowStorybook = false
 
 const AppContainer = styled.SafeAreaView`
   flex: 1;
